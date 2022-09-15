@@ -4,7 +4,6 @@
 /**
  * Print_traingle - prints triangle
  * @size: size parameter of a triangle
- *
  * Return: Nothing
  */
 
