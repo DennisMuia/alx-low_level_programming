@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdio.h>
+#include <string.h>
 
 /**
  * puts2 - prints every other character from first followed by new line
@@ -10,13 +11,10 @@
 
 void puts2(char *str)
 {
-	int i = 0;
+	int len, i;
 
-	while (*(str + 1) != '\0')
-	{
-		if (i % 2 == 0)
-			putchar (*(str + i));
-		i += 2;
-	}
+	len = strlen(str);
+	for (i = 0; i < len; i += 2)
+		putchar(str[i]);
 	putchar('\n');
 }
