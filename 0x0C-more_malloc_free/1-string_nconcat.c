@@ -1,22 +1,6 @@
 #include "main.h"
 
 /**
- * _strlen - string length
- * @string: string
- *
- * Return: string length
- */
-
-int _strlen(char *string)
-{
-	int i;
-
-	for (i = 0; string[i] != '\0'; i++)
-
-	return (i);
-}
-
-/**
  * string_nconcat - concatenates 2 strings.
  * point to a newly allocated space in memory,
  * which contains s1, followed by the first n
