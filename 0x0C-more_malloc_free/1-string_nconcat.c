@@ -1,8 +1,5 @@
 #include "main.h"
 
-#include <stdio.h>
-#include <stdlib.h>
-
 /**
  * _strlen - string length
  * @string: string
