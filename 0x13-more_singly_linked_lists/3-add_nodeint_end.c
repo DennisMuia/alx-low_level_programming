@@ -3,7 +3,7 @@
 /**
  * add_nodeint_end - Adds a node to th end of a linked list
  * @head: pointer to the head of the list
- * @h: number to be used as content
+ * @n: number to be used as content
  *
  * Return: Address of the newly added node
  */
