@@ -28,7 +28,7 @@ void error_file(int file_from, int file_to, char *argv[])
  * @argc: number of students
  * @argv: arguments vector
  *
- * Return: 0
+ * Return: Always 0
  */
 
 int main(int argc, char *argv[])
@@ -65,7 +65,7 @@ int main(int argc, char *argv[])
 		exit(100);
 	}
 
-	err_close == close(file_to);
+	err_close = close(file_to);
 	if (err_close == -1)
 	{
 		dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", file_from);
